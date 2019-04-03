@@ -1,8 +1,8 @@
-main: lts pow inv
-clean: clean-lts clean-pow clean-inv
-lts:
+main: lst pow inv
+clean: clean-lst clean-pow clean-inv
+lst:
 	ghc -o lstvezes lstvezes.hs
-clean-lts: 
+clean-lst: 
 	rm lstvezes lstvezes.hi lstvezes.o
 pow:
 	ghc -o powlst powlst.hs
